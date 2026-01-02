@@ -1,4 +1,4 @@
-# Secure-Web-Application-Firewall-WAF
+# Behavior Based Web Application Firewall (WAF)
 This project implements a defensive and educational Web Application Firewall (WAF) designed to analyze incoming HTTP requests and identify abnormal behavior using scoring-based detection logic.
 
 ## Scope & Goals

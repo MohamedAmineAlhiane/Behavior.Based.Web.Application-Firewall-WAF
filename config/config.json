@@ -2,6 +2,11 @@
   "waf": {
     "max_requests": 3,
     "max_payload_size": 500,
-    "sensitive_endpoints": ["/admin"]
+    "sensitive_endpoints": ["/admin", "/login"]
+  },
+  "logging": {
+    "level": "INFO",
+    "log_to_file": false,
+    "log_file_path": "logs/waf.log"
   }
 }

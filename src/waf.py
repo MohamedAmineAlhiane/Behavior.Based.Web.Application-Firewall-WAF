@@ -61,7 +61,7 @@ class WAFEngine:
 
         # Signal 3: Sensitive endpoint
         if any(request.endpoint.startswith(ep) for ep in self.config.sensitive_endpoints):
-            score += 1
+            score += 2
             reasons.append("Sensitive endpoint access")
 
         decision = self._decide(score)

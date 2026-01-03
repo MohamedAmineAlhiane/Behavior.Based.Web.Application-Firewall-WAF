@@ -31,13 +31,25 @@ The primary goals of this project are:
 - Python 3.10+
 - Virtual environment (venv)
 
-### Setup
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+## Running the Application
 
+The WAF is exposed as an HTTP middleware using FastAPI.  
+Once the application is running, incoming requests are inspected in real time before reaching application endpoints.
+
+To start the server:
+
+bash
 uvicorn src.app:app --reload
-The service will be available at: http://127.0.0.1:8000
+
+By default, the application runs on:
+
+http://127.0.0.1:8000
+
+Example Runtime Output
+
+The following screenshot shows the FastAPI application running successfully with the WAF middleware initialized and active:
+
+![Logging Output](screenshots/fastapi-running.png)
 
 ## Threat Model (Simplified)
 

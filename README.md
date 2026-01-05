@@ -224,6 +224,9 @@ The emphasis on scope definition, threat modeling, and observability reflects re
 ## Project Evolution
 This project initially began as a conceptual prototype and evolved into a tested implementation through iterative design and validation.
 
+## License
+MIT License
+
 ## Ethical Notice
 
 This project was developed strictly for educational and defensive purposes.  
